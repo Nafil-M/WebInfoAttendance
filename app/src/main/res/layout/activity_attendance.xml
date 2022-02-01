@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Attendance.AttendanceActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/logoo"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/punchin"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:text="Punch In"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/punchout"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/punchin"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:text="Punch Out"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
