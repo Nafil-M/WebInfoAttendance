@@ -55,7 +55,6 @@ public class ProjectsActivity extends AppCompatActivity implements AllProjectsPr
     PendingWorksPresenter pendingWorksPresenter;
     ProjectDetailsPresenter projectDetailsPresenter;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
