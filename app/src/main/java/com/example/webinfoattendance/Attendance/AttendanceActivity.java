@@ -82,7 +82,7 @@ public class AttendanceActivity extends AppCompatActivity implements AttendanceP
 
                     Toast.makeText(AttendanceActivity.this, "Punch Out successful", Toast.LENGTH_LONG).show();
 
-                    Log.e("TAG", "lat and lng =  " + lat + " , " + lng + "date and time are : " + dateandtime);
+                    Log.e("TAG", "user id = " + userId +"lat and lng =  " + lat + " , " + lng + "date and time are : " + dateandtime);
 
                     punchOut.setEnabled(false);
                 back();

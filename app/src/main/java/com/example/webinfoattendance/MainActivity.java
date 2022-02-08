@@ -76,15 +76,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        projectbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, ProjectsActivity.class);
-                i.putExtra("userid", userId);
-                i.putExtra("uname", name);
-                startActivity(i);
-            }
-        });
+//        projectbtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent i = new Intent(MainActivity.this, ProjectsActivity.class);
+//                i.putExtra("userid", userId);
+//                i.putExtra("uname", name);
+//                startActivity(i);
+//            }
+//        });
     }
 
 
