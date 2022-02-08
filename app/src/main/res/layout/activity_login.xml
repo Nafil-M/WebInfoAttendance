@@ -12,7 +12,7 @@
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
-        android:src="@drawable/logoo"/>
+        android:src="@drawable/webinfo" />
 
         <RelativeLayout
             android:id="@+id/details"
